@@ -14,3 +14,23 @@
 # # Update the rating from 2 to 8 from your code
 # The Grizzlies are from Memphis and are 8 in the standings.
 # ```
+
+# create class for Sportsteam that has 2 properties
+# cretae method that has changes ranking prop.
+# created print method that prints class
+class SportsTeam:
+    def __init__(self, name, city, ranking):
+        self.name = name
+        self.city = city
+        self.ranking = ranking
+    def changerank(self):
+        newranking = int(input("Enter a new ranking: "))
+        self.ranking = newranking
+        return f"The new ranking for {self.name} is {self.ranking}"
+    def __str__(self):
+        return f" {self.name} {self.city} {self.ranking}"
+
+#
+newTeam = SportsTeam("seahawks", "seattle", 2)
+print(newTeam)
+print(newTeam.changerank())

@@ -10,3 +10,25 @@
 
 # BIRD is longer than COW
 # ```
+
+# def chk_strings(word1, word2):
+#     if word1 == word2[::1]:
+#         print(f" {word1} is longer than {word2}")
+#         return True
+#     else:
+#         return False
+#
+#
+# print(chk_strings("Bird", "cow"))
+
+# create function and variables that take user input and compare word length
+userinput = input("Enter 1st word: ")
+userinput2 =input("enter 2nd word: ")
+def chk_strings(word1,word2):
+    if word1 > word2[::1]:
+        print(f"{word1} is bigger than {word2}")
+        return True
+    else:
+        return False
+
+print(chk_strings(userinput,userinput2))
