@@ -1,5 +1,17 @@
 # codeAssessment2
 #### Final Grade: 10.5/12
+
+1 Output off but mostly right.
+
+2 Good with comments
+
+3 Not sure what happened here. Some pieces, but not quite there.
+
+4 Good with comments
+
+5 Mostly right, input you solicited input in class method when requirements said do not
+
+6 Good. With comments
 ### Instructions
 Answer each question inside of the individual question files. Each file has the question paste inside of it.
 
